@@ -32,6 +32,6 @@ end
 
 function FiniteFuelVehicle:TankSize()
 	if not IsValid(self.vehicle) then return 0 end
-	
+	-- C'est ici qu'il faut que tu regarde pour réduire la taille du réservoire --
 	return self.vehicle:GetMass() / FiniteFuelTankSizeFormulas[self.vehicleGasType]
 end
