@@ -33,10 +33,10 @@ function FiniteFuel:__init()
 	-- Fuel meter
 	self.fuelMeterPosition = "BottomCenter" -- Options: BottomLeft, BottomRight, BottomCenter, TopRight, TopCenter
 	self.fuelMeterRelativeWidth = 0.2 -- value * screen width
-	self.fuelMeterRelativeHeight = 0.03 -- value * screen height
+	self.fuelMeterRelativeHeight = 0.015 -- value * screen height
 	self.fuelMeterBackground = Color(0, 0, 0, 100)
 	self.fuelMeterForeground = Color(0, 255, 0)
-	self.fuelMeterRelativeTextSize = 0.02 -- value * screen height
+	self.fuelMeterRelativeTextSize = 0.01 -- value * screen height
 	self.fuelMeterTextColor = Color(255, 255, 255)
 	
 	self.fuelMeterWidth = 0
